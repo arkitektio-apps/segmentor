@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  segmentor:
+    ports:
+      - 8787:8787
+    build: .
+    
+
+
+networks:
+  default:
+    external:
+      name: dev

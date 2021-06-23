@@ -1,0 +1,22 @@
+arkitekt:
+  host: arkitekt
+  port: 8090
+  secure: false
+  internal: True
+herre:
+  host: herre
+  port: 8000
+  secure: false
+  scopes:
+    - introspection
+    - provider
+    - read_starred
+    - can_provide
+    - can_assign
+    - can_forward_bounce
+    - read
+  clientID: huKQboFgvLaqfVb23QAJ7Kchp9Rzl87vCVRgWHjZ
+  client_id: 4MXIY5MstiCHkHEPlldN0k8cxK8o763M7V0dhQjq
+  client_secret: kVVP8XK1mmXF0JFeuUbd5qokGsAOWE1nurL2aWqOp6q8SLlcMWC5E7gEPNAtLQQVVzuu7pbuK81EJzUXzPO1JfHmVxoNcUZxUEmwi7OMSjygd4HoyJREeBAjcuolc4yv
+  authorization_grant_type: CLIENT_CREDENTIALS
+  redirect_uri: null

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "segmentor"
+version = "0.2.0"
+readme = "README.md"
+homepage = "https://github.com/jhnnsrs/strom"
+description = "An example implementation of a deep learning segmentation container for arnheim"
+packages = [{include = "segmentor"}]
+authors = ["jhnnsrs <jhnnsrs@gmail.com>"]
+license = "CC BY-NC 3.0"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+bergen = "^0.3.30"
+grunnlag = "^0.2.9"
+s3fs = "0.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

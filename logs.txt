@@ -1,0 +1,245 @@
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": [], "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=[], auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='26b2b1b7-2173-4e2c-83ac-3c925d45b4c5', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Postman disconnected
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": [], "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=[], auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Postman disconnected
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": [], "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=[], auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(assignation='26b2b1b7-2173-4e2c-83ac-3c925d45b4c5') meta=MetaModel(type='bounced_unassign', reference='058ca201-c9f6-43b7-ab64-abfd56443898', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(assignation='26b2b1b7-2173-4e2c-83ac-3c925d45b4c5') meta=MetaModel(type='bounced_unassign', reference='c277b1e5-bbb1-4cfe-8084-0e35e78543c1', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(reservation='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='8df93212-97f6-4090-8a41-733442715298', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Postman disconnected
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": [], "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=[], auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(assignation='8df93212-97f6-4090-8a41-733442715298') meta=MetaModel(type='bounced_unassign', reference='d9c1b275-7f96-470b-a3e0-d1e09d5d7fd1', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(assignation='26b2b1b7-2173-4e2c-83ac-3c925d45b4c5') meta=MetaModel(type='bounced_unassign', reference='0ebff9e7-6bae-419c-9125-bb1e05ffbd19', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(reservation='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='19f073ed-d63a-4f24-b562-70890fb527ca', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": [], "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=[], auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(assignation='19f073ed-d63a-4f24-b562-70890fb527ca') meta=MetaModel(type='bounced_unassign', reference='884887ba-a38b-4e94-a928-833cd64fe7af', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(assignation='8df93212-97f6-4090-8a41-733442715298') meta=MetaModel(type='bounced_unassign', reference='523729d2-d3e2-46ca-99b5-b80c44651583', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(assignation='26b2b1b7-2173-4e2c-83ac-3c925d45b4c5') meta=MetaModel(type='bounced_unassign', reference='d5133f10-1ab0-49d9-9682-cbe205e19e09', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Cancellation for task that was not in our tasks..
+Received Message data=DataModel(reservation='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='197fbe63-98dc-49b2-b42f-603fc9e196bd', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Incoming Message {"data": {"provision": "4d83f39e-41bf-4f5f-bdc6-13e5896e2f34"}, "meta": {"type": "bounced_unprovide", "reference": "988357f5-2a7a-4679-b42b-51323d7b5412", "extensions": null, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34') meta=MetaModel(type='bounced_unprovide', reference='988357f5-2a7a-4679-b42b-51323d7b5412', extensions=None, token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='4d83f39e-41bf-4f5f-bdc6-13e5896e2f34') meta=MetaModel(type='unprovide_log', reference='988357f5-2a7a-4679-b42b-51323d7b5412', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a9ecc62a-ca40-45ee-951c-8a206b37f016", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a9ecc62a-ca40-45ee-951c-8a206b37f016', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a9ecc62a-ca40-45ee-951c-8a206b37f016', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a9ecc62a-ca40-45ee-951c-8a206b37f016', provision='a9ecc62a-ca40-45ee-951c-8a206b37f016', args=[605], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='53e1ad1f-253f-433f-afcd-28c783561ab8', extensions=MetaExtensionsModel(progress='amq.gen-iLVKNaq__QXB3l_FvEGGcQ', persist=True, callback='amq.gen-5ZgJmO8FK4aM0LPX4RGxuQ'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='a9ecc62a-ca40-45ee-951c-8a206b37f016', provision='a9ecc62a-ca40-45ee-951c-8a206b37f016', args=[607], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='b1af5595-d713-44f9-b214-d5602b06619b', extensions=MetaExtensionsModel(progress='amq.gen-iLVKNaq__QXB3l_FvEGGcQ', persist=True, callback='amq.gen-5ZgJmO8FK4aM0LPX4RGxuQ'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Incoming Message {"data": {"provision": "a9ecc62a-ca40-45ee-951c-8a206b37f016"}, "meta": {"type": "bounced_unprovide", "reference": "d56014e1-9eb8-4b26-af55-5aa611579bad", "extensions": null, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(provision='a9ecc62a-ca40-45ee-951c-8a206b37f016') meta=MetaModel(type='bounced_unprovide', reference='d56014e1-9eb8-4b26-af55-5aa611579bad', extensions=None, token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='a9ecc62a-ca40-45ee-951c-8a206b37f016') meta=MetaModel(type='unprovide_log', reference='d56014e1-9eb8-4b26-af55-5aa611579bad', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "8595e1cf-5160-4bbb-9b91-c0b4ea70add0", "extensions": {"progress": null, "persist": null, "callback": null}, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', provision='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', args=[609], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='2aa0ea1d-a589-4b10-988d-34c4e92ac6d8', extensions=MetaExtensionsModel(progress='amq.gen-iLVKNaq__QXB3l_FvEGGcQ', persist=True, callback='amq.gen-5ZgJmO8FK4aM0LPX4RGxuQ'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', provision='8595e1cf-5160-4bbb-9b91-c0b4ea70add0', args=[611], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='0513c6b3-c854-4900-9ad0-5abe4cc19cc1', extensions=MetaExtensionsModel(progress='amq.gen-iLVKNaq__QXB3l_FvEGGcQ', persist=True, callback='amq.gen-5ZgJmO8FK4aM0LPX4RGxuQ'), token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Found credentials in environment variables.
+Incoming Message {"data": {"provision": "8595e1cf-5160-4bbb-9b91-c0b4ea70add0"}, "meta": {"type": "bounced_unprovide", "reference": "0c30a7a7-c4b0-494e-b874-7d7070f36ca9", "extensions": null, "token": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": 2, "app": 1}}}
+Incoming Message data=DataModel(provision='8595e1cf-5160-4bbb-9b91-c0b4ea70add0') meta=MetaModel(type='bounced_unprovide', reference='0c30a7a7-c4b0-494e-b874-7d7070f36ca9', extensions=None, token=Token(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user=2, app=1))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='8595e1cf-5160-4bbb-9b91-c0b4ea70add0') meta=MetaModel(type='unprovide_log', reference='0c30a7a7-c4b0-494e-b874-7d7070f36ca9', extensions=None)
+Actor is done! Cancellation or Finished??
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "97", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "6ab8cc0d-46b5-4a5c-9bf0-5898d218093b", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='97', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', provision='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', args=[863], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='2e6dc195-acf6-4df1-9287-4fc2a5f20ffe', extensions=MetaExtensionsModel(progress='amq.gen-t244UwBy37hzkIiwix0rAA', persist=True, callback='amq.gen-sfLYsDsyvpyYlggtNk143g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='87198f18-5d96-4e79-be01-84af7a3e811c', provision='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='ede233b6-00a2-4c66-99f4-f5ded6502270', extensions=MetaExtensionsModel(progress='amq.gen-t244UwBy37hzkIiwix0rAA', persist=True, callback='amq.gen-sfLYsDsyvpyYlggtNk143g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Message data=DataModel(reservation='87198f18-5d96-4e79-be01-84af7a3e811c', provision='6ab8cc0d-46b5-4a5c-9bf0-5898d218093b', args=['592'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='acc6bcf6-0fe6-40fd-a825-0f55efd251ae', extensions=MetaExtensionsModel(progress='amq.gen-t244UwBy37hzkIiwix0rAA', persist=True, callback='amq.gen-sfLYsDsyvpyYlggtNk143g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
