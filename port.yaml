@@ -1,8 +1,15 @@
-name: "Hannes"
-package: "lala"
-interface: "gaga"
+name: Hannes
+package: segmentation
+interface: segmentor
 args:
-  - type: "Representation"
-    key: "rep"
+  - type: Representation
+    label: The Representation that will get segmented
+    key: rep
+return:
+  - type: Representation
+    label: The Representation that was segmented
+    key: rep
 
-    
+
+entrypoint: predicter.py
+image: jhnnsrs/segmentor:latest
