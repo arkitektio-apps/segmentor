@@ -1,8 +1,8 @@
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM tensorflow/tensorflow:latest-gpu
 
 LABEL maintainer="ko.sugawara@ens-lyon.fr"
 
-ARG NVIDIA_DRIVER_VERSION=430
+ARG NVIDIA_DRIVER_VERSION=460
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ocl-icd-dev \

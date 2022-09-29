@@ -243,3 +243,646 @@ Reconnecting
 Postman: Trying to reconnect Postman
 [red] Connection attempt as Entertainer failed
 [red] Connection attempt as Entertainer failed
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "9adec3ed-c616-44cc-bf41-8991d6e8b76e", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='9adec3ed-c616-44cc-bf41-8991d6e8b76e', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='9adec3ed-c616-44cc-bf41-8991d6e8b76e', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='9adec3ed-c616-44cc-bf41-8991d6e8b76e', provision='9adec3ed-c616-44cc-bf41-8991d6e8b76e', args=[6], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='2b97a7a0-14cd-4922-8a19-bc137c1bfd59', extensions=MetaExtensionsModel(progress='amq.gen-0SQpPKGJxLkgdtVUiHr8dw', persist=True, callback='amq.gen-c5P_6UYZoMwILj1KWOkF4g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Postman disconnected
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "9adec3ed-c616-44cc-bf41-8991d6e8b76e", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='9adec3ed-c616-44cc-bf41-8991d6e8b76e', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='9adec3ed-c616-44cc-bf41-8991d6e8b76e', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='9adec3ed-c616-44cc-bf41-8991d6e8b76e', provision='9adec3ed-c616-44cc-bf41-8991d6e8b76e', args=[7], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='eb062f68-39da-4338-9129-1591e31a3814', extensions=MetaExtensionsModel(progress='amq.gen-0SQpPKGJxLkgdtVUiHr8dw', persist=True, callback='amq.gen-c5P_6UYZoMwILj1KWOkF4g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='9adec3ed-c616-44cc-bf41-8991d6e8b76e', provision='9adec3ed-c616-44cc-bf41-8991d6e8b76e', args=[9], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='f4f63587-4139-41cd-b620-6d20b8c22db7', extensions=MetaExtensionsModel(progress='amq.gen-0SQpPKGJxLkgdtVUiHr8dw', persist=True, callback='amq.gen-c5P_6UYZoMwILj1KWOkF4g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(assignation='2b97a7a0-14cd-4922-8a19-bc137c1bfd59') meta=MetaModel(type='bounced_unassign', reference='8cbdf4d6-1ca0-4ef9-a5d1-052ae3e78456', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Cancellation for Assignation that is not running with us. Sending Done back..
+Received Message data=DataModel(reservation='9adec3ed-c616-44cc-bf41-8991d6e8b76e', provision='9adec3ed-c616-44cc-bf41-8991d6e8b76e', args=[11], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='fc04dc2e-e887-4fa1-b81e-affa71bf9745', extensions=MetaExtensionsModel(progress='amq.gen-0SQpPKGJxLkgdtVUiHr8dw', persist=True, callback='amq.gen-c5P_6UYZoMwILj1KWOkF4g'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host=None port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a6b42b41-42ee-4fb5-8f72-7f12a01157a0", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', args=['3751'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='776279b4-4fc3-4865-9f8e-26fe1dc6edd2', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Postman disconnected
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a6b42b41-42ee-4fb5-8f72-7f12a01157a0", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', args=['3750'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='ed84e979-1e7f-4753-aeb5-b13d4bd767f9', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a6b42b41-42ee-4fb5-8f72-7f12a01157a0", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', args=['3751'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='4f07f39c-d9f6-4581-8d5a-476b9b264734', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', args=['3756'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='790ddfb2-81a3-4648-8cf8-6035849b2951', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a6b42b41-42ee-4fb5-8f72-7f12a01157a0", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0', args=['3760'], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='c8d5ff4f-4e7d-40fe-80e0-8e4e9d2433d4', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(assignation='776279b4-4fc3-4865-9f8e-26fe1dc6edd2') meta=MetaModel(type='bounced_unassign', reference='c61db676-85dd-4203-a0bc-38069ef4421f', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Cancellation for Assignation that is not running with us. Sending Done back..
+Received Message data=DataModel(assignation='ed84e979-1e7f-4753-aeb5-b13d4bd767f9') meta=MetaModel(type='bounced_unassign', reference='748334be-07d8-4b7e-9dbc-16fcbb8134d1', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Cancellation for Assignation that is not running with us. Sending Done back..
+Received Message data=DataModel(assignation='4f07f39c-d9f6-4581-8d5a-476b9b264734') meta=MetaModel(type='bounced_unassign', reference='2cf28a44-7ff0-49d3-969d-a881682a271b', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Cancellation for Assignation that is not running with us. Sending Done back..
+Received Message data=DataModel(assignation='790ddfb2-81a3-4648-8cf8-6035849b2951') meta=MetaModel(type='bounced_unassign', reference='33492d6d-15a0-4126-bc09-0b8c056a5ad8', extensions=MetaExtensionsModel(progress='gateway_progress', persist=True, callback='gateway_callback'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Cancellation for Assignation that is not running with us. Sending Done back..
+Incoming Message {"data": {"provision": "a6b42b41-42ee-4fb5-8f72-7f12a01157a0"}, "meta": {"type": "bounced_unprovide", "reference": "e083486f-9664-432e-89c4-e896dcccec80", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0') meta=MetaModel(type='bounced_unprovide', reference='e083486f-9664-432e-89c4-e896dcccec80', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='a6b42b41-42ee-4fb5-8f72-7f12a01157a0') meta=MetaModel(type='unprovide_log', reference='e083486f-9664-432e-89c4-e896dcccec80', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "8dac9717-9ba6-4bc8-83af-89dc0d617303", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='8dac9717-9ba6-4bc8-83af-89dc0d617303', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303', args=[3763], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='9e7a1d6a-a964-4add-99a4-75fb7dca2b33', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='8dac9717-9ba6-4bc8-83af-89dc0d617303', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303', args=[3766], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='34804bd1-7480-4bf4-aa0c-6364aaf5469e', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Postman: Trying to reconnect Postman
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "8dac9717-9ba6-4bc8-83af-89dc0d617303", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Found credentials in environment variables.
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='8dac9717-9ba6-4bc8-83af-89dc0d617303', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303', args=[3768], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='93baeebc-e099-440f-a500-5c478f7acc58', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='8dac9717-9ba6-4bc8-83af-89dc0d617303', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303', args=[3775], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='fe0ac40a-720f-4839-8770-c6265c0067f7', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "8dac9717-9ba6-4bc8-83af-89dc0d617303", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='8dac9717-9ba6-4bc8-83af-89dc0d617303', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='8dac9717-9ba6-4bc8-83af-89dc0d617303', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303', args=[3779], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='b4e65641-3ab7-4e72-b77a-ee4e4ef82dee', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Incoming Message {"data": {"provision": "8dac9717-9ba6-4bc8-83af-89dc0d617303"}, "meta": {"type": "bounced_unprovide", "reference": "a85d4914-685c-403d-b140-207645d36049", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='8dac9717-9ba6-4bc8-83af-89dc0d617303') meta=MetaModel(type='bounced_unprovide', reference='a85d4914-685c-403d-b140-207645d36049', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='8dac9717-9ba6-4bc8-83af-89dc0d617303') meta=MetaModel(type='unprovide_log', reference='a85d4914-685c-403d-b140-207645d36049', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a3bc5cea-cab3-4bce-b477-8ffd44f259db", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a3bc5cea-cab3-4bce-b477-8ffd44f259db', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a3bc5cea-cab3-4bce-b477-8ffd44f259db', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='a3bc5cea-cab3-4bce-b477-8ffd44f259db', provision='a3bc5cea-cab3-4bce-b477-8ffd44f259db', args=[3783], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='32533719-480f-42c5-b14b-2de10840844e', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Received Message data=DataModel(reservation='a3bc5cea-cab3-4bce-b477-8ffd44f259db', provision='a3bc5cea-cab3-4bce-b477-8ffd44f259db', args=[3787], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='288b9b7c-ddab-4e09-bdf1-ae7ad24ed143', extensions=MetaExtensionsModel(progress='amq.gen-tM7xWgZC25Hy9dX5GCZwVA', persist=True, callback='amq.gen-Xlg85JbSwGixrbuPgDQnLg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "a3bc5cea-cab3-4bce-b477-8ffd44f259db", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='a3bc5cea-cab3-4bce-b477-8ffd44f259db', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='a3bc5cea-cab3-4bce-b477-8ffd44f259db', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Incoming Message {"data": {"provision": "a3bc5cea-cab3-4bce-b477-8ffd44f259db"}, "meta": {"type": "bounced_unprovide", "reference": "85e4643d-e93f-49fe-b2a5-3d8ca1a9eb6a", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='a3bc5cea-cab3-4bce-b477-8ffd44f259db') meta=MetaModel(type='bounced_unprovide', reference='85e4643d-e93f-49fe-b2a5-3d8ca1a9eb6a', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='a3bc5cea-cab3-4bce-b477-8ffd44f259db') meta=MetaModel(type='unprovide_log', reference='85e4643d-e93f-49fe-b2a5-3d8ca1a9eb6a', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Incoming Message {"data": {"provision": "b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8"}, "meta": {"type": "bounced_unprovide", "reference": "f20edab6-8212-4dfb-b4f9-3bfa337026d1", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8') meta=MetaModel(type='bounced_unprovide', reference='f20edab6-8212-4dfb-b4f9-3bfa337026d1', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='b2c21fd4-28a8-426c-9e1f-2d19aff0d1c8') meta=MetaModel(type='unprovide_log', reference='f20edab6-8212-4dfb-b4f9-3bfa337026d1', extensions=None)
+Actor is done! Cancellation or Finished??
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "4e79357e-c0ff-447e-8177-a36e1a615797", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='4e79357e-c0ff-447e-8177-a36e1a615797', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='4e79357e-c0ff-447e-8177-a36e1a615797', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Incoming Message {"data": {"provision": "4e79357e-c0ff-447e-8177-a36e1a615797"}, "meta": {"type": "bounced_unprovide", "reference": "5d564216-f816-432c-aaaa-7941dd3ad5a0", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='4e79357e-c0ff-447e-8177-a36e1a615797') meta=MetaModel(type='bounced_unprovide', reference='5d564216-f816-432c-aaaa-7941dd3ad5a0', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='4e79357e-c0ff-447e-8177-a36e1a615797') meta=MetaModel(type='unprovide_log', reference='5d564216-f816-432c-aaaa-7941dd3ad5a0', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "c066334a-c0cd-4a93-96a2-b129db84241f", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='c066334a-c0cd-4a93-96a2-b129db84241f', provision='c066334a-c0cd-4a93-96a2-b129db84241f', args=[3791], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='e6b09536-acbe-426f-bf4e-360ea9909704', extensions=MetaExtensionsModel(progress='amq.gen-gkkQXZvGs1eXG1gQcAtQkg', persist=True, callback='amq.gen-wuM_qQVQVom7IQgIuknpdA'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "c066334a-c0cd-4a93-96a2-b129db84241f", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Found credentials in environment variables.
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Received Message data=DataModel(reservation='c066334a-c0cd-4a93-96a2-b129db84241f', provision='c066334a-c0cd-4a93-96a2-b129db84241f', args=[3795], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='d08cb636-6899-4971-a1c2-3bf7c48b4183', extensions=MetaExtensionsModel(progress='amq.gen-gkkQXZvGs1eXG1gQcAtQkg', persist=True, callback='amq.gen-wuM_qQVQVom7IQgIuknpdA'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Task was destroyed but it is pending!
+task: <Task pending coro=<Actor.run() running at /usr/local/lib/python3.6/dist-packages/bergen/actors/base.py:72> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fe21c46c648>()]> cb=[BaseEntertainer.actor_cancelled(<bergen.provi...x7fe35f5319b0>)()]>
+Actor is done! Cancellation or Finished??
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='c066334a-c0cd-4a93-96a2-b129db84241f', provision='c066334a-c0cd-4a93-96a2-b129db84241f', args=[3799], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='98afd56f-256a-46c7-acaa-efd0f63fa628', extensions=MetaExtensionsModel(progress='amq.gen-gkkQXZvGs1eXG1gQcAtQkg', persist=True, callback='amq.gen-wuM_qQVQVom7IQgIuknpdA'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "c066334a-c0cd-4a93-96a2-b129db84241f", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='c066334a-c0cd-4a93-96a2-b129db84241f', provision='c066334a-c0cd-4a93-96a2-b129db84241f', args=[3803], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='c91ea9e2-a60b-4398-83bd-03a4ea0c25e4', extensions=MetaExtensionsModel(progress='amq.gen-gkkQXZvGs1eXG1gQcAtQkg', persist=True, callback='amq.gen-wuM_qQVQVom7IQgIuknpdA'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "c066334a-c0cd-4a93-96a2-b129db84241f", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "c066334a-c0cd-4a93-96a2-b129db84241f", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='c066334a-c0cd-4a93-96a2-b129db84241f', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Incoming Message {"data": {"provision": "c066334a-c0cd-4a93-96a2-b129db84241f"}, "meta": {"type": "bounced_unprovide", "reference": "a2ab328b-1306-4ebb-95f1-2ed0a974cb28", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='c066334a-c0cd-4a93-96a2-b129db84241f') meta=MetaModel(type='bounced_unprovide', reference='a2ab328b-1306-4ebb-95f1-2ed0a974cb28', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='c066334a-c0cd-4a93-96a2-b129db84241f') meta=MetaModel(type='unprovide_log', reference='a2ab328b-1306-4ebb-95f1-2ed0a974cb28', extensions=None)
+Actor is done! Cancellation or Finished??
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3807], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='51b33d61-7f2f-4215-bdbd-0efd97b71e2c', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3811], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='66d0e49f-ee5e-45a8-b0aa-c8c3bf27a1de', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Task was destroyed but it is pending!
+task: <Task pending coro=<Actor.run() running at /usr/local/lib/python3.6/dist-packages/bergen/actors/base.py:72> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f460c1841f8>()]> cb=[BaseEntertainer.actor_cancelled(<bergen.provi...x7f474fa49978>)()]>
+Actor is done! Cancellation or Finished??
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3813], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='75c05f1e-b5e2-44ee-bbe2-1e043c53bf78', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3816], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='c18ca8b2-5831-4e33-9f01-9b0dfcb95823', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3819], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='4e5693d0-d90f-44c6-8680-5fc0c2fb2d17', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Found credentials in environment variables.
+Task was destroyed but it is pending!
+task: <Task pending coro=<Actor.run() running at /usr/local/lib/python3.6/dist-packages/bergen/actors/base.py:72> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f460c184138>()]> cb=[BaseEntertainer.actor_cancelled(<bergen.provi...x7f45482dec18>)()]>
+Actor is done! Cancellation or Finished??
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3820], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='cd5c5cef-6e06-4538-953c-c8493a2f3cd3', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Found credentials in environment variables.
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3832], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='ac6395e9-acc2-4b7f-a4bb-8491e3502878', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3834], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='f9bd9f24-e118-4d3f-8cdc-19b8c7be7b72', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3836], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='7fca7ba4-0aa8-48a1-8c6b-6aca8ec40a94', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Error in data transfer
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 827, in transfer_data
+    message = await self.read_message()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 895, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 995, in read_data_frame
+    await self.pong(frame.data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 770, in pong
+    await self.write_frame(True, OP_PONG, data)
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 1083, in write_frame
+    await self.ensure_open()
+  File "/usr/local/lib/python3.6/dist-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Postman: Trying to reconnect Postman
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3841], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='e7d962b0-bf8e-4336-b5b4-c33b7a62f299', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3843], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='3ba5fd98-b8ba-4b41-9848-415c64232c26', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3847], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='268665d6-0642-4991-96cb-53178dcb6e10', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3850], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='18976f3f-cc96-4cf0-8432-6b8d2fbb4d2b', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3853], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='6fd5865e-6460-49da-9891-cef66b0e3ff9', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3856], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='441e55d6-7e6a-4ff9-8283-813e2bfa2e34', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3859], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='c37b6cda-ecb5-4b1e-a4cf-382cfa03cbcf', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3863], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='fab92831-fee5-4621-bcf1-833a46995d00', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3865], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='1a0a649e-ab7d-495d-a485-cc0328f1c230', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3867], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='8857c975-c9a3-4b7f-b9cd-62125e86f5e4', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3870], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='7bf65428-b38b-4e82-9321-1ee1ec270eeb', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3871], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='097f0f7c-ee6b-479e-95a9-fc97cff071af', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3874], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='22c8dc12-0221-413e-b880-d51a0e6e44ca', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3875], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='9ca468a5-35a2-484e-8361-ea7fae776ee3', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', provision='7c0f9fa6-f1b1-4d3f-8a18-daa6fd4a3a07', args=[3877], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='81a25899-181b-4a9a-afc7-3a61cc9a02ee', extensions=MetaExtensionsModel(progress='amq.gen-BPoSdRBBu7h10FrtVRRZRg', persist=True, callback='amq.gen-syDKdSQXUGYJ25mq725uAw'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "2700026a-eb72-41d9-ac6c-99adf1087efd", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='2700026a-eb72-41d9-ac6c-99adf1087efd', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='2700026a-eb72-41d9-ac6c-99adf1087efd', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3935], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='d7f2cceb-0aac-4cc6-9a07-d2dc69289ee1', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3939], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='d27300a4-0a03-4ca5-b1ca-33041f1ad336', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3940], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='26d03853-8bcc-42d1-ab05-dd22404b12fb', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3947], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='6ed4e9c5-4188-4dac-bc21-c2fccc58bc09', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3950], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='e5a90645-e6cd-47af-8e20-b7aa7a8657c3', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3953], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='ff5b1f3f-8c2f-4000-967e-51ee87c2c8d5', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3956], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='4dc21df7-f486-407c-aab5-5ba486b39f7f', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3959], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='acc0d60f-39f5-47d1-bcfc-607e48c977ec', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3960], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='18c84a1f-cf9b-44ab-8a08-1dd65cce6690', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3971], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='db4dcc12-d4b6-492f-af2b-a22ab582c9bb', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3975], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='bd655ce7-6bde-4245-ab42-8b1fa591a552', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3979], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='919ffa32-2cca-445c-99dd-015427bf9893', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3983], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='c2c76ef0-61c0-4f9a-9eb1-24faf05de121', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3986], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='6bb87603-9de8-4d65-8ee9-19c2f64493a7', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3988], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='9020d6af-6c68-4def-8a7c-76e5cffb08d5', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3990], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='aeed0981-e1b6-485b-9c93-874f3268ee1b', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='2700026a-eb72-41d9-ac6c-99adf1087efd', provision='2700026a-eb72-41d9-ac6c-99adf1087efd', args=[3999], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='06810681-f7e3-4230-8c67-d1d186ffa61d', extensions=MetaExtensionsModel(progress='amq.gen-swoE2yLsgc6lMpiPlDGvLg', persist=True, callback='amq.gen-pvu1yWWy44dUZZHvuWjosg'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Creating new Ward for Datapoint TYPENAME=None distinct='Elements' needsNegotiation='True' type=<DataPointType.GRAPHQL: 'GRAPHQL'> host='elements' port=8080 secure=None
+Node is Function
+Creating Arg Ports: ['rep']
+Creating Kwargs Ports: []
+Creating Returns Ports: ['Representation']
+Sueccess fully connected Provider 
+Sueccess fully connected Provider 
+ [x] Awaiting Entertaining Calls
+Sueccess fully connected Provider 
+Incoming Message {"data": {"node": null, "template": "14", "params": {"providers": null, "auto_unprovide": true, "auto_provide": true}}, "meta": {"type": "bounced_provide", "reference": "3b750ba0-5011-4972-8e67-3bb9921d6ed4", "extensions": {"progress": null, "persist": null, "callback": null}, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(node=None, template='14', params=ProvideParams(providers=None, auto_unprovide=True, auto_provide=True)) meta=MetaModel(type='bounced_provide', reference='3b750ba0-5011-4972-8e67-3bb9921d6ed4', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Provide Request
+Sending data=LogDataModel(level=<LogLevel.INFO: 'INFO'>, message='Pod Pending') meta=MetaModel(type='provide_log', reference='3b750ba0-5011-4972-8e67-3bb9921d6ed4', extensions=MetaExtensionsModel(progress=None, persist=None, callback=None))
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4004], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='5684c5df-d96c-4663-a74e-2c9674b92425', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4005], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='099753ca-5cc4-4e16-8086-87af745e925a', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4009], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='6f2150ce-766f-4f0e-88f8-7d23e14b6704', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4011], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='e91324ff-978f-4c74-9ed9-a209cc41636d', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4015], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='7e18f6f2-366b-4816-b0ca-4f4b92821e21', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4017], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='0902e130-c9da-4dc6-b5b5-80a2fbde3425', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4018], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='0c3c44a1-dd00-4000-b730-d751db7940d4', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4031], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='a04c6ffe-ff0a-4821-b176-dc63faab827c', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4033], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='748f137a-dc15-42c6-a386-60150aa4eee7', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4036], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='6a818d17-f54a-457c-8b0e-bcb07ae61832', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4038], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='2b3e8719-c14e-4c96-9440-9895610b15ae', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4047], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='408e5179-bdb8-4030-bdc6-811a9946915d', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4049], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='120ab840-0638-4e9e-9a09-ba512c259081', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4051], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='f905090a-32e9-4c50-aadf-ebe57b89bdc2', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4059], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='9a07c236-9ce9-49d9-94f5-58a02e26e0ec', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4062], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='b7ca7bfe-47ba-4bcf-90c1-4ccd0b88727a', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4064], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='db4f1d11-8b02-4bf4-a009-48126b7d4fad', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4067], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='f93f9940-4e18-4ccb-96ef-c73e1109acee', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4071], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='f1f46776-3f04-43ab-aace-a40fdb1f9334', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4072], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='b490487f-1959-4fd6-95c7-571da6681e5d', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Received Message data=DataModel(reservation='3b750ba0-5011-4972-8e67-3bb9921d6ed4', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4', args=[4075], kwargs={}) meta=MetaModel(type='bounced_forwarded_assign', reference='76866f90-1373-4125-b5de-7bea68cd2f26', extensions=MetaExtensionsModel(progress='amq.gen-PVbD03vEakiifoSOhuE0Vw', persist=True, callback='amq.gen-knHrOBlbtmHLtqmaTdCW_A'), context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Found credentials in environment variables.
+Incoming Message {"data": {"provision": "3b750ba0-5011-4972-8e67-3bb9921d6ed4"}, "meta": {"type": "bounced_unprovide", "reference": "240b028f-4f73-4b85-b286-798fa0ff3aae", "extensions": null, "context": {"roles": ["admin"], "scopes": ["read", "read_starred", "provider", "introspection", "can_provide", "can_assign", "can_template", "can_create", "can_forward_bounce"], "user": "jhnnsrs@gmail.com", "app": "PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO"}}}
+Incoming Message data=DataModel(provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4') meta=MetaModel(type='bounced_unprovide', reference='240b028f-4f73-4b85-b286-798fa0ff3aae', extensions=None, context=Context(roles=['admin'], scopes=['read', 'read_starred', 'provider', 'introspection', 'can_provide', 'can_assign', 'can_template', 'can_create', 'can_forward_bounce'], user='jhnnsrs@gmail.com', app='PsdU71PlUYeC4hP4aDf8pTdm2Hv9xYKdrxCFI5RO'))
+Received Unprovide Request
+Sending data=UnprovideLogData(level=<LogLevel.INFO: 'INFO'>, message='Pod Unproviding', provision='3b750ba0-5011-4972-8e67-3bb9921d6ed4') meta=MetaModel(type='unprovide_log', reference='240b028f-4f73-4b85-b286-798fa0ff3aae', extensions=None)
+Actor is done! Cancellation or Finished??
+Provider: Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Provider: Reconnecting
+Lost connection inbetween everything :( [ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason',)]
+Reconnecting
+Postman: Trying to reconnect Postman
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed
+[red] Connection attempt as Entertainer failed

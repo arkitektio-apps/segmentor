@@ -1,0 +1,44 @@
+arkitekt:
+  agent:
+    endpoint_url: ws://arkitekt:8090/agi/
+  endpoint_url: http://arkitekt:8090/graphql
+  healthz: http://arkitekt:8090/ht
+  postman:
+    endpoint_url: ws://arkitekt:8090/watchi/
+  secure: false
+  ws_endpoint_url: ws://arkitekt:8090/graphql
+fluss:
+  datalayer:
+    endpoint_url: http://minio:9000
+    secure: false
+  endpoint_url: http://fluss:8070/graphql
+  healthz: http://fluss:8070/ht
+  secure: false
+  ws_endpoint_url: ws://fluss:8070/graphql
+herre:
+  base_url: http://herre:8000/o
+  client_id: x2K6fFs1fJTWfA3Jrf21Ze1tQ8bPoR3uXXPX2acu
+  client_secret: 3eae7263-8137-420d-9c6e-9e9c55a25866
+  endpoint_url: http://herre:8000/graphql
+  grant_type: client-credentials
+  healthz: http://herre:8000/ht
+  name: stardist
+  scopes:
+  - can_assign
+  - can_forward_bounce
+  - can_provide
+  secure: false
+  ws_endpoint_url: ws://herre:8000/graphql
+mikro:
+  datalayer:
+    endpoint_url: http://minio:9000
+    secure: false
+  endpoint_url: http://mikro:8080/graphql
+  healthz: http://mikro:8080/ht
+  secure: false
+  ws_endpoint_url: ws://mikro:8080/graphql
+port:
+  endpoint_url: http://port:8050/graphql
+  healthz: http://port:8050/ht
+  secure: false
+  ws_endpoint_url: ws://port:8050/graphql
