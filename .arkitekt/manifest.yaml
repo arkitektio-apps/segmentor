@@ -1,0 +1,6 @@
+author: john doe
+entrypoint: app
+identifier: segmentor
+scopes:
+- read
+version: dev

@@ -2,8 +2,8 @@ version: "3.4"
 
 services:
   segmentor:
-    ports:
-      - 8787:8787
+    runtime: nvidia
+    
     build: .
     
 
