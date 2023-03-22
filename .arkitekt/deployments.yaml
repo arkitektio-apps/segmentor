@@ -1,0 +1,11 @@
+deployments:
+- builder: arkitekt.builder.port
+  definitions: []
+  deployed:
+    docker: jhnnsrs/segmentor:4
+    runtime: nvidia
+  deployer: arkitekt.deployers.port.dockerbuild
+  identifier: segmentor
+  scopes:
+  - read
+  version: '4'

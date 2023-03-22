@@ -300,7 +300,6 @@ smodel = StarDist3D(None, name="stardist3", basedir="models")
 @register()
 def predict_stardist(
     rep: RepresentationFragment,
-    model: ModelFragment,
 ) -> RepresentationFragment:
     """Predict Stardist
 
