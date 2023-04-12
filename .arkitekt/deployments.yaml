@@ -11,3 +11,16 @@ deployments:
   scopes:
   - read
   version: dev
+- author: jhnnsrs
+  command: arkitekt run port
+  created_at: '2023-04-12T16:56:35.365487'
+  definitions: []
+  entrypoint: app
+  identifier: segmentor
+  image: jhnnsrs/segmentor:dev2
+  requirements:
+  - gpu
+  scopes:
+  - read
+  version: dev2
+latest_deployment: '2023-04-12T16:57:08.469406'

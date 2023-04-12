@@ -2,7 +2,7 @@ author: jhnnsrs
 entrypoint: app
 identifier: segmentor
 requirements:
-- gpu
+  - gpu
 scopes:
-- read
-version: dev
+  - read
+version: dev2
