@@ -44,9 +44,6 @@ class segment_cells(CompletlyThreadedActor):
 
         """
         print(f"Called wtih Rep {rep.data.nbytes}")
-        assert (
-            rep.data.nbytes < 1000 * 1000 * 30 * 1 * 2
-        ), "Image is to big to be loaded"
 
         axis_norm = (0, 1, 2)
         x = rep.data.sel(c=0, t=0).transpose(*"zxy").data.compute()

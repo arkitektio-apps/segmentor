@@ -313,7 +313,6 @@ def predict_stardist(
 
     """
     print(f"Called wtih Rep {rep.data.nbytes}")
-    assert rep.data.nbytes < 500 * 500 * 30 * 1 * 1 * 2, "Image is to big to be loaded"
 
     # model = StarDist3D(name=random_dir)
 

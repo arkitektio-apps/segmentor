@@ -1,6 +1,8 @@
-author: john doe
+author: jhnnsrs
 entrypoint: app
 identifier: segmentor
+requirements:
+- gpu
 scopes:
 - read
 version: dev

@@ -1,0 +1,24 @@
+builds:
+- build_id: 0369fa86-99e8-4505-99cb-1c697de14a01
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: dev
+latest_build:
+  build_id: 0369fa86-99e8-4505-99cb-1c697de14a01
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: dev

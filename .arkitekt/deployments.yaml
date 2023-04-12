@@ -1,22 +1,13 @@
 deployments:
-- builder: arkitekt.builder.port
+- author: jhnnsrs
+  command: arkitekt run port
+  created_at: '2023-04-12T12:32:13.852191'
   definitions: []
-  deployed:
-    docker: jhnnsrs/segmentor:4
-    runtime: nvidia
-  deployer: arkitekt.deployers.port.dockerbuild
+  entrypoint: app
   identifier: segmentor
+  image: jhnnsrs/segmentor:dev
+  requirements:
+  - gpu
   scopes:
   - read
-  version: '4'
-- builder: arkitekt.builder.port
-  definitions: []
-  deployed:
-    docker: jhnnsrs/segmentor:5
-    runtime: nvidia
-  deployer: arkitekt.deployers.port.dockerbuild
-  identifier: segmentor
-  scopes:
-  - read
-  version: '5'
-latest_deployment: '2023-03-22T09:44:41.725701'
+  version: dev
