@@ -49,7 +49,7 @@ class segment_cells(CompletlyThreadedActor):
         x = rep.data.sel(c=0, t=0).transpose(*"zxy").data.compute()
         x = normalize(x, 1, 99.8, axis=axis_norm)
 
-        labels, details = model.predict_instances(x)
+        labels, details = model.predict_instances(x, n_tiles=(8,8))
 
         array = xr.DataArray(labels, dims=list("zxy"))
 

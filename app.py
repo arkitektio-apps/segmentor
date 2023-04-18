@@ -23,6 +23,7 @@ from mikro.api.schema import (
 from rekuest.actors.functional import (
     CompletlyThreadedActor,
 )
+import numpy as np
 from pydantic import Field
 from arkitekt.tqdm import tqdm as atdqm
 from arkitekt import easy
@@ -218,6 +219,7 @@ def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
 
     axis_norm = (0, 1, 2)
     x = rep.data.sel(c=0, t=0, z=0).transpose(*"xy").data.compute()
+    
     x = normalize(x)
 
     labels, details = model.predict_instances(x)
@@ -320,7 +322,7 @@ def predict_stardist(
     x = rep.data.sel(c=0, t=0).transpose(*"zxy").data.compute()
     x = normalize(x, 1, 99.8, axis=axis_norm)
 
-    labels, details = smodel.predict_instances(x)
+    labels, details = smodel.predict_instances(x, n_tiles=(8,8, 8)) #TODO: SHould be autocalculated
 
     array = xr.DataArray(labels, dims=list("zxy"))
 
