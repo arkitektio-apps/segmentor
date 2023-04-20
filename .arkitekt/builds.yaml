@@ -43,8 +43,7 @@ builds:
     scopes:
     - read
     version: 0.0.1
-latest_build:
-  build_id: ece742e3-fe74-4fa4-a179-c780b59921d7
+- build_id: 52b81f3f-021c-4b7e-91da-1c41a1bef779
   builder: port
   manifest:
     author: jhnnsrs
@@ -54,4 +53,16 @@ latest_build:
     - gpu
     scopes:
     - read
-    version: 0.0.1
+    version: 0.0.2
+latest_build:
+  build_id: 52b81f3f-021c-4b7e-91da-1c41a1bef779
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.2
