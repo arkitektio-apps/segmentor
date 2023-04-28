@@ -98,8 +98,7 @@ builds:
     scopes:
     - read
     version: 0.0.5
-latest_build:
-  build_id: cefff1ae-1755-44e7-a62d-f22a9fa38849
+- build_id: c53d205f-89d6-4e4c-aa4a-855c8b88f75c
   builder: port
   manifest:
     author: jhnnsrs
@@ -110,3 +109,26 @@ latest_build:
     scopes:
     - read
     version: 0.0.5
+- build_id: 083976e4-7db1-47d5-bbc9-c8a6f0f5669d
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.6
+latest_build:
+  build_id: 083976e4-7db1-47d5-bbc9-c8a6f0f5669d
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.6
