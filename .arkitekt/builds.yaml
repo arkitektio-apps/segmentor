@@ -120,8 +120,7 @@ builds:
     scopes:
     - read
     version: 0.0.6
-latest_build:
-  build_id: 083976e4-7db1-47d5-bbc9-c8a6f0f5669d
+- build_id: 3d98d064-66ec-4eeb-a3a5-3d9a537af329
   builder: port
   manifest:
     author: jhnnsrs
@@ -132,3 +131,40 @@ latest_build:
     scopes:
     - read
     version: 0.0.6
+- build_id: 2a97d2f9-13e9-433e-b110-d0620965bb52
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.6
+- build_id: 3c892b3f-9d16-40d6-93d2-e0b6371d2ea1
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.7
+latest_build:
+  build_id: 3c892b3f-9d16-40d6-93d2-e0b6371d2ea1
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.0.7

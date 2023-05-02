@@ -1,8 +1,9 @@
 author: jhnnsrs
 entrypoint: app
 identifier: segmentor
+logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
 requirements:
 - gpu
 scopes:
 - read
-version: 0.0.6
+version: 0.0.7
