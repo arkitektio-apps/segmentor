@@ -43,6 +43,8 @@ import uuid
 from arkitekt import register
 from enum import Enum
 from typing import Optional
+from concurrent.futures import ProcessPoolExecutor
+
 
 class PreTrainedModels(str, Enum):
     STARDIST_ORGANOID_3D = "stardist3"
@@ -62,7 +64,7 @@ def set_active_stardist_model(model: ModelFragment):
     active_model = model
     with model.data as f:
         shutil.unpack_archive(f, f".modelcache/{active_model.id}")
-    active_stardist_model = StarDist3D(None, name=active_model.id, basedir=".modelcache")
+    active_stardist_model = active_model.id
     return active_stardist_model
             
 
@@ -278,6 +280,8 @@ def upload_pretrained(pretrained: PreTrainedModels) -> ModelFragment:
     return model
 
 
+
+
 @register()
 def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     """Segment Flou2
@@ -300,6 +304,7 @@ def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     x = rep.data.sel(c=0, t=0, z=0).transpose(*"xy").data.compute()
     x = normalize(x)
 
+
     labels, details = model.predict_instances(x)
 
     array = xr.DataArray(labels, dims=list("xy"))
@@ -314,6 +319,10 @@ def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     return nana
 
 
+
+def run_predict(model_id, instance):
+    active_stardist_model = StarDist3D(None, name=model_id, basedir=".modelcache")
+    return active_stardist_model.predict_instances(instance, n_tiles=(1,8, 8))
 
 
 @register()
@@ -341,9 +350,12 @@ def predict_stardist(
     x = rep.data.sel(c=0, t=0).transpose(*"zxy").data.compute()
     x = normalize(x, 1, 99.8, axis=axis_norm)
 
-    smodel = set_active_stardist_model(model)
+    model_id = set_active_stardist_model(model)
 
-    labels, details = smodel.predict_instances(x, n_tiles=(1,8, 8)) #TODO: SHould be autocalculated
+    with ProcessPoolExecutor(max_workers=1) as executor:
+        future = executor.submit(run_predict, model_id, x)
+        labels, details = future.result()
+        
 
 
     print("uploading")
