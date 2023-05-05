@@ -42,10 +42,29 @@ import shutil
 import uuid
 from arkitekt import register
 from enum import Enum
-
+from typing import Optional
 
 class PreTrainedModels(str, Enum):
     STARDIST_ORGANOID_3D = "stardist3"
+    STARDIST_STYLED = "stardist_styled"
+
+
+active_model: Optional[ModelFragment] = None
+active_stardist_model = None
+
+
+def set_active_stardist_model(model: ModelFragment):
+    global active_model, active_stardist_model
+    if active_model:
+        if active_model.id == model.id:
+            return active_stardist_model
+        
+    active_model = model
+    with model.data as f:
+        shutil.unpack_archive(f, f".modelcache/{active_model.id}")
+    active_stardist_model = StarDist3D(None, name=active_model.id, basedir=".modelcache")
+    return active_stardist_model
+            
 
 
 def random_fliprot(img, mask, axis=None):
@@ -243,19 +262,18 @@ def upload_pretrained(pretrained: PreTrainedModels) -> ModelFragment:
     Uploads a pretrained startdist model
 
     Args:
-        pretrained (PreTrainedModels): _description_
+        pretrained (PreTrainedModels): The pretrained model to upload (see PreTrainedModels)
 
     Returns:
-        ModelFragment: _description_
+        ModelFragment: The uploaded model
     """
-    if pretrained == PreTrainedModels.STARDIST_ORGANOID_3D:
-        archive = shutil.make_archive("active_model", "zip", "models/stardist3")
-        model = create_model(
-            "active_model.zip",
-            kind=ModelKind.TENSORFLOW,
-            name=f"Stardist Organoid (2022)",
-            contexts=[],
-        )
+    archive = shutil.make_archive("active_model", "zip", f"models/{pretrained}")
+    model = create_model(
+        "active_model.zip",
+        kind=ModelKind.TENSORFLOW,
+        name=f"Segmentor Pretrained Model: {pretrained}",
+        contexts=[],
+    )
 
     return model
 
@@ -296,19 +314,20 @@ def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     return nana
 
 
-smodel = StarDist3D(None, name="stardist3", basedir="models")
 
 
 @register()
 def predict_stardist(
     rep: RepresentationFragment,
+    model: ModelFragment,
 ) -> RepresentationFragment:
     """Predict Stardist
 
     Segments Cells using the stardist algorithm
 
     Args:
-        rep (Representation): The Representation.
+        rep (RepresentationFragment): The Image to segment.
+        model (ModelFragment): The model to use for segmentation
 
     Returns:
         Representation: A Representation
@@ -322,8 +341,12 @@ def predict_stardist(
     x = rep.data.sel(c=0, t=0).transpose(*"zxy").data.compute()
     x = normalize(x, 1, 99.8, axis=axis_norm)
 
-    labels, details = smodel.predict_instances(x, n_tiles=(8,8, 8)) #TODO: SHould be autocalculated
+    smodel = set_active_stardist_model(model)
 
+    labels, details = smodel.predict_instances(x, n_tiles=(1,8, 8)) #TODO: SHould be autocalculated
+
+
+    print("uploading")
     array = xr.DataArray(labels, dims=list("zxy"))
 
     nana = from_xarray(
