@@ -20,9 +20,6 @@ from mikro.api.schema import (
     RepresentationVariety,
     ModelKind,
 )
-from rekuest.actors.functional import (
-    CompletlyThreadedActor,
-)
 import numpy as np
 from pydantic import Field
 from arkitekt.tqdm import tqdm as atdqm
@@ -220,41 +217,6 @@ def train_stardist_model(
     return model
 
 
-@register()
-def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
-    """Segment Flou2
-
-    Segments Cells using the stardist flou2 pretrained model
-
-    Args:
-        rep (Representation): The Representation.
-
-    Returns:
-        Representation: A Representation
-
-    """
-    print(f"Called wtih Rep {rep.data.nbytes}")
-    assert rep.data.nbytes < 1000 * 1000 * 30 * 1 * 2, "Image is to big to be loaded"
-
-    model = StarDist2D.from_pretrained("2D_versatile_fluo")
-
-    axis_norm = (0, 1, 2)
-    x = rep.data.sel(c=0, t=0, z=0).transpose(*"xy").data.compute()
-    
-    x = normalize(x)
-
-    labels, details = model.predict_instances(x)
-
-    array = xr.DataArray(labels, dims=list("xy"))
-
-    nana = from_xarray(
-        array,
-        name="Segmented " + rep.name,
-        origins=[rep],
-        tags=["segmented"],
-        variety=RepresentationVariety.MASK,
-    )
-    return nana
 
 
 @register()
