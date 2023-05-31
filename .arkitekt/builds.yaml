@@ -371,8 +371,20 @@ builds:
     scopes:
     - read
     version: 0.2.1
+- build_id: e5884b03-e830-49bf-9e77-b278a8be2997
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.2.1
 latest_build:
-  build_id: 6af1421c-556d-487b-b8f1-ea542a48d03d
+  build_id: e5884b03-e830-49bf-9e77-b278a8be2997
   builder: port
   manifest:
     author: jhnnsrs
