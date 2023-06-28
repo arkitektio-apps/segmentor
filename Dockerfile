@@ -2,7 +2,7 @@ FROM tensorflow/tensorflow:latest-gpu
 
 
 RUN pip install stardist gputools edt 
-RUN pip install "arkitekt[cli]==0.4.120"
+RUN pip install "arkitekt[cli]==0.4.124"
 
 
 RUN mkdir /workspace

@@ -251,4 +251,17 @@ deployments:
   scopes:
   - read
   version: 0.2.2
-latest_deployment: '2023-06-05T09:41:50.089740'
+- author: jhnnsrs
+  command: arkitekt run port
+  created_at: '2023-06-28T11:48:14.054002'
+  definitions: []
+  entrypoint: app
+  identifier: segmentor
+  image: jhnnsrs/segmentor:0.2.3
+  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+  requirements:
+  - gpu
+  scopes:
+  - read
+  version: 0.2.3
+latest_deployment: '2023-06-28T11:48:32.634992'
