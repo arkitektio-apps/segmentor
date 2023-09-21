@@ -2,8 +2,8 @@ FROM tensorflow/tensorflow:latest-gpu
 
 
 RUN pip install stardist gputools edt 
-RUN pip install "arkitekt[cli]==0.4.124"
-
+RUN pip install "arkitekt[cli]==0.5.45"
+RUN pip install "pydantic<2"
 
 RUN mkdir /workspace
 COPY . /workspace

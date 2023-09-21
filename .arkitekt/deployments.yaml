@@ -1,267 +1,36 @@
 deployments:
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-12T12:32:13.852191'
+- build_id: 38d0e981-9021-43fc-8c62-afd864319a4d
+  builder: arkitekt.builders.port
   definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:dev
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: dev
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-12T16:56:35.365487'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:dev2
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: dev2
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-18T13:29:12.310761'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.1
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.1
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-20T12:59:05.391087'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.2
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.2
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-21T15:29:18.161209'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.3
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.3
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-21T15:38:16.362844'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.4
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.4
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-28T15:12:43.235056'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.5
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.5
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-04-28T16:28:12.683279'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.6
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.6
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-02T13:16:51.127424'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.7
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.7
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-02T14:21:27.075447'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.8
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.8
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-02T14:25:11.339433'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.9
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.9
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-03T17:40:41.232547'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.10
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.10
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-05T12:25:03.655005'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.11
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.11
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-05T13:20:38.731684'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.12
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.12
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-05T16:53:23.531262'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.14
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.14
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-19T15:25:07.810352'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.15
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.15
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-19T15:28:34.491433'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.0.16
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.0.16
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-30T16:27:52.057161'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.2.0
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.2.0
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-05-31T09:40:38.596957'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.2.1
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.2.1
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-06-05T09:41:33.510509'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
-  image: jhnnsrs/segmentor:0.2.2
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.2.2
-- author: jhnnsrs
-  command: arkitekt run port
-  created_at: '2023-06-28T11:48:14.054002'
-  definitions: []
-  entrypoint: app
-  identifier: segmentor
+  deployed_at: '2023-09-21T14:14:29.734610'
+  deployment_id: 0c0c30fc-378c-497c-99b4-0214a8a0ffa3
   image: jhnnsrs/segmentor:0.2.3
-  logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
-  requirements:
-  - gpu
-  scopes:
-  - read
-  version: 0.2.3
-latest_deployment: '2023-06-28T11:48:32.634992'
+  manifest:
+    author: jhnnsrs
+    created_at: '2023-09-21T14:13:50.157797'
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.2.3
+- build_id: e5dbcdc7-e5e1-4123-a5c4-e1714426f9b5
+  builder: arkitekt.builders.port
+  definitions: []
+  deployed_at: '2023-09-21T14:16:03.762318'
+  deployment_id: aed16d57-b517-443b-acde-6ccaf717077f
+  image: jhnnsrs/segmentor:0.3.0
+  manifest:
+    author: jhnnsrs
+    created_at: '2023-09-21T14:15:32.488344'
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.0
+latest_deployment: '2023-09-21T14:16:03.763771'

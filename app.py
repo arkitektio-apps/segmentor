@@ -57,13 +57,12 @@ def set_active_stardist_model(model: ModelFragment):
     if active_model:
         if active_model.id == model.id:
             return active_stardist_model
-        
+
     active_model = model
     with model.data as f:
         shutil.unpack_archive(f, f".modelcache/{active_model.id}")
     active_stardist_model = active_model.id
     return active_stardist_model
-            
 
 
 def random_fliprot(img, mask, axis=None):
@@ -103,7 +102,7 @@ def augmenter(x, y):
     return x, y
 
 
-@register()
+@register(collections=["segmentation", "training"])
 def train_stardist_model(
     context: ContextFragment,
     epochs: int = 10,
@@ -217,9 +216,7 @@ def train_stardist_model(
     return model
 
 
-
-
-@register()
+@register(collections=["segmentation", "upload", "nuclei"])
 def upload_pretrained(pretrained: PreTrainedModels) -> ModelFragment:
     """Upload pretrained Stardist
 
@@ -242,30 +239,24 @@ def upload_pretrained(pretrained: PreTrainedModels) -> ModelFragment:
     return model
 
 
+class Image(RepresentationFragment):
+    pass
 
 
-@register()
-def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
+@register(collections=["segmentation", "prediction", "nuclei"])
+def predict_flou2(rep: Image) -> Image:
     """Segment Flou2
-
     Segments Cells using the stardist flou2 pretrained model
 
     Args:
         rep (Representation): The Representation.
-
     Returns:
         Representation: A Representation
 
     """
-    print(f"Called wtih Rep {rep.data.nbytes}")
-    assert rep.data.nbytes < 1000 * 1000 * 30 * 1 * 2, "Image is to big to be loaded"
-
     model = StarDist2D.from_pretrained("2D_versatile_fluo")
-
-    axis_norm = (0, 1, 2)
     x = rep.data.sel(c=0, t=0, z=0).transpose(*"xy").data.compute()
     x = normalize(x)
-
 
     labels, details = model.predict_instances(x)
 
@@ -281,13 +272,12 @@ def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     return nana
 
 
-
 def run_predict(model_id, instance):
     active_stardist_model = StarDist3D(None, name=model_id, basedir=".modelcache")
-    return active_stardist_model.predict_instances(instance, n_tiles=(1,8, 8))
+    return active_stardist_model.predict_instances(instance, n_tiles=(1, 8, 8))
 
 
-@register()
+@register(collections=["segmentation", "prediction", "nuclei"])
 def predict_stardist(
     rep: RepresentationFragment,
     model: ModelFragment,
@@ -317,8 +307,6 @@ def predict_stardist(
     with ProcessPoolExecutor(max_workers=1) as executor:
         future = executor.submit(run_predict, model_id, x)
         labels, details = future.result()
-        
-
 
     print("uploading")
     array = xr.DataArray(labels, dims=list("zxy"))
