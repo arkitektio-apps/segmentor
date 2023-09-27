@@ -23,8 +23,7 @@ builds:
     scopes:
     - read
     version: 0.3.0
-latest_build:
-  build_id: e5dbcdc7-e5e1-4123-a5c4-e1714426f9b5
+- build_id: 4b1fe724-32a1-40f0-95e1-e0324eb5474c
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -36,3 +35,52 @@ latest_build:
     scopes:
     - read
     version: 0.3.0
+- build_id: 63afb6a2-f713-47b9-b42d-249a45332519
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.0
+- build_id: 952639ef-3235-4631-9cea-a47791c15c39
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.0
+- build_id: b8225749-f75a-40d2-b45e-0cc2920bfe0f
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.1
+latest_build:
+  build_id: b8225749-f75a-40d2-b45e-0cc2920bfe0f
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.1
