@@ -71,8 +71,7 @@ builds:
     scopes:
     - read
     version: 0.3.1
-latest_build:
-  build_id: b8225749-f75a-40d2-b45e-0cc2920bfe0f
+- build_id: 3a145d6b-4a42-42fe-8936-b06da2e3d778
   builder: arkitekt.builders.port
   manifest:
     author: jhnnsrs
@@ -83,4 +82,17 @@ latest_build:
     - gpu
     scopes:
     - read
-    version: 0.3.1
+    version: 0.3.2
+latest_build:
+  build_id: 3a145d6b-4a42-42fe-8936-b06da2e3d778
+  builder: arkitekt.builders.port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.2
