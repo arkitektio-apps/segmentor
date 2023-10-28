@@ -233,12 +233,10 @@ def upload_pretrained(pretrained: PreTrainedModels) -> ModelFragment:
     return model
 
 
-class Image(RepresentationFragment):
-    pass
 
 
 @register(collections=["segmentation", "prediction", "nuclei"])
-def predict_flou2(rep: Image) -> Image:
+def predict_flou2(rep: RepresentationFragment) -> RepresentationFragment:
     """Segment Flou2
     Segments Cells using the stardist flou2 pretrained model
 

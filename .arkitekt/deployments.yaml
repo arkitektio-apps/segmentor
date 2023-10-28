@@ -16,4 +16,38 @@ deployments:
     scopes:
     - read
     version: 0.3.2
-latest_deployment: '2023-10-28T12:07:17.207323'
+- build_id: 86ec89d7-590b-45e8-a8f5-8ab4e1e19a59
+  builder: arkitekt.builders.port
+  definitions: []
+  deployed_at: '2023-10-28T12:10:26.976845'
+  deployment_id: 0bf29b5b-3eee-43b2-9dc9-628b0b41e2e7
+  image: jhnnsrs/segmentor:0.3.3
+  manifest:
+    author: jhnnsrs
+    created_at: '2023-10-28T12:10:06.559686'
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.3
+- build_id: d7dacf1a-07d1-4059-b5a1-9f6e93966482
+  builder: arkitekt.builders.port
+  definitions: []
+  deployed_at: '2023-10-28T12:11:20.735541'
+  deployment_id: cfcd4044-65bc-4da1-a078-0745460cdfc3
+  image: jhnnsrs/segmentor:0.3.4
+  manifest:
+    author: jhnnsrs
+    created_at: '2023-10-28T12:10:52.317249'
+    entrypoint: app
+    identifier: segmentor
+    logo: https://github.com/stardist/stardist/raw/master/images/stardist_logo.jpg
+    requirements:
+    - gpu
+    scopes:
+    - read
+    version: 0.3.4
+latest_deployment: '2023-10-28T12:11:20.738585'
